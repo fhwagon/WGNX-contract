@@ -3,7 +3,7 @@
 ## 📋 Contract Overview
 
 **Contract Name:** WagonTokenized  
-**Symbol:** WAGT  
+**Symbol:** WAGNX  
 **Standard:** ERC20 with extensions  
 **Upgradeable:** Yes (UUPS pattern)  
 **OpenZeppelin Version:** ^5.4.0  
@@ -126,15 +126,3 @@ bytes32 public constant UPGRADER_ROLE = keccak256("UPGRADER_ROLE");
 - **Centralized control** - Admin has significant powers
 - **Blacklist dependency** - Relies on trusted blacklister role
 - **Upgrade risk** - Upgrader can change contract logic
-
-## 🔗 Related Files
-
-- **Contract:** `contracts/WagonTokenized.sol`
-- **Tests:** `test/WagonTokenized.test.ts`
-- **Deploy:** `scripts/deploy.ts`
-- **Upgrade:** `scripts/upgrade.ts`
-- **Config:** `hardhat.config.ts`
-
-## 📞 Contact
-
-For audit questions or clarifications, please refer to the contract source code and test files for implementation details.
